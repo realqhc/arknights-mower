@@ -20,7 +20,7 @@ a = Analysis(
         ('venv64/Lib/site-packages/shapely/DLLs/geos.dll', '.'),
         ('venv64/Lib/site-packages/shapely/DLLs/geos_c.dll', '.')
     ],
-    hiddenimports=[],
+    hiddenimports=[clr_loader],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
